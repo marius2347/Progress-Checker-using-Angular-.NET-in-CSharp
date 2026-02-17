@@ -1,0 +1,67 @@
+<div style="padding: 30px; max-width: 800px; margin: auto;">
+
+  <mat-card class="example-card">
+
+    <mat-card-header>
+      <div mat-card-avatar style="background-color: #1976d2; display: flex; justify-content: center; align-items: center;">
+        <mat-icon style="color: white;">info</mat-icon>
+      </div>
+      <mat-card-title>About This Application</mat-card-title>
+      <mat-card-subtitle>Angular 19 integrated with .NET 8 Backend</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <p style="margin-top: 16px; font-size: 1.1rem;">
+        This project is a modern Single Page Application (SPA) designed as a learning prototype for enterprise architectures.
+      </p>
+
+      <h3 style="margin-top: 24px; color: #555;">Application Highlights</h3>
+
+      <mat-list>
+
+        <mat-list-item>
+          <mat-icon matListItemIcon color="accent">brush</mat-icon>
+          <h3 matListItemTitle>Material UI Design</h3>
+          <p matListItemLine>
+            Beautiful, consistent components powered by Google's Material Design.
+          </p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+
+        <mat-list-item>
+          <mat-icon matListItemIcon color="primary">cloud_sync</mat-icon>
+          <h3 matListItemTitle>Real-time .NET Integration</h3>
+          <p matListItemLine>
+            Live weather data fetched dynamically from ASP.NET Core Minimal API.
+          </p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+
+        <mat-list-item>
+          <mat-icon matListItemIcon style="color: green;">check_circle_outline</mat-icon>
+          <h3 matListItemTitle>Interactive Task System</h3>
+          <p matListItemLine>
+            Frontend state management for tracking progress items.
+          </p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+
+        <mat-list-item>
+          <mat-icon matListItemIcon style="color: orange;">alt_route</mat-icon>
+          <h3 matListItemTitle>SPA Routing</h3>
+          <p matListItemLine>
+            Seamless navigation between views without page reloads.
+          </p>
+        </mat-list-item>
+
+      </mat-list>
+    </mat-card-content>
+
+    <mat-card-actions align="end" style="padding: 16px;">
+      <button mat-stroked-button color="primary" routerLink="/">
+        <mat-icon>home</mat-icon> BACK TO DASHBOARD
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
