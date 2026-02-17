@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "angularwithasp.client\\angularwithasp.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AngularWithASP.Server\\AngularWithASP.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
